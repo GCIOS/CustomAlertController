@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0820"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20A686551E4B281900382E27"
+               BuildableName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController.app"
+               BlueprintName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController"
+               ReferencedContainer = "container:&#x81ea;&#x5b9a;&#x4e49;UIAlertController.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20A6866E1E4B281900382E27"
+               BuildableName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertControllerTests.xctest"
+               BlueprintName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertControllerTests"
+               ReferencedContainer = "container:&#x81ea;&#x5b9a;&#x4e49;UIAlertController.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20A686791E4B281900382E27"
+               BuildableName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertControllerUITests.xctest"
+               BlueprintName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertControllerUITests"
+               ReferencedContainer = "container:&#x81ea;&#x5b9a;&#x4e49;UIAlertController.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "20A686551E4B281900382E27"
+            BuildableName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController.app"
+            BlueprintName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController"
+            ReferencedContainer = "container:&#x81ea;&#x5b9a;&#x4e49;UIAlertController.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "20A686551E4B281900382E27"
+            BuildableName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController.app"
+            BlueprintName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController"
+            ReferencedContainer = "container:&#x81ea;&#x5b9a;&#x4e49;UIAlertController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "20A686551E4B281900382E27"
+            BuildableName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController.app"
+            BlueprintName = "&#x81ea;&#x5b9a;&#x4e49;UIAlertController"
+            ReferencedContainer = "container:&#x81ea;&#x5b9a;&#x4e49;UIAlertController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
