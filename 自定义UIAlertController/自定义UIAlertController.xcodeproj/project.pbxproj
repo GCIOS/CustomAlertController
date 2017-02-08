@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		20A6865B1E4B281900382E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6865A1E4B281900382E27 /* main.m */; };
 		20A6865E1E4B281900382E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6865D1E4B281900382E27 /* AppDelegate.m */; };
-		20A686611E4B281900382E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A686601E4B281900382E27 /* ViewController.m */; };
-		20A686641E4B281900382E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A686621E4B281900382E27 /* Main.storyboard */; };
 		20A686661E4B281900382E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A686651E4B281900382E27 /* Assets.xcassets */; };
 		20A686691E4B281900382E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A686671E4B281900382E27 /* LaunchScreen.storyboard */; };
 		20A686741E4B281900382E27 /* ___UIAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A686731E4B281900382E27 /* ___UIAlertControllerTests.m */; };
 		20A6867F1E4B281900382E27 /* ___UIAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6867E1E4B281900382E27 /* ___UIAlertControllerUITests.m */; };
+		20A686911E4B289600382E27 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6868D1E4B289600382E27 /* UIView+Extension.m */; };
+		20A686921E4B289600382E27 /* GCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6868F1E4B289600382E27 /* GCAlertController.m */; };
+		20A686971E4B28A900382E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A686941E4B28A900382E27 /* ViewController.m */; };
+		20A686981E4B28A900382E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A686961E4B28A900382E27 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		20A6865A1E4B281900382E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20A6865C1E4B281900382E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20A6865D1E4B281900382E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20A6865F1E4B281900382E27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		20A686601E4B281900382E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		20A686631E4B281900382E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20A686651E4B281900382E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A686681E4B281900382E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20A6866A1E4B281900382E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,13 @@
 		20A6867A1E4B281900382E27 /* 自定义UIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义UIAlertControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A6867E1E4B281900382E27 /* ___UIAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UIAlertControllerUITests.m"; sourceTree = "<group>"; };
 		20A686801E4B281900382E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A6868C1E4B289600382E27 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		20A6868D1E4B289600382E27 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		20A6868E1E4B289600382E27 /* GCAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCAlertController.h; sourceTree = "<group>"; };
+		20A6868F1E4B289600382E27 /* GCAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAlertController.m; sourceTree = "<group>"; };
+		20A686931E4B28A900382E27 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../../../Downloads/自定义UIAlertController1/自定义UIAlertController1/ViewController.h"; sourceTree = "<group>"; };
+		20A686941E4B28A900382E27 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../../../Downloads/自定义UIAlertController1/自定义UIAlertController1/ViewController.m"; sourceTree = "<group>"; };
+		20A686951E4B28A900382E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,12 @@
 		20A686581E4B281900382E27 /* 自定义UIAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				20A686901E4B289600382E27 /* alert */,
 				20A6865C1E4B281900382E27 /* AppDelegate.h */,
 				20A6865D1E4B281900382E27 /* AppDelegate.m */,
-				20A6865F1E4B281900382E27 /* ViewController.h */,
-				20A686601E4B281900382E27 /* ViewController.m */,
-				20A686621E4B281900382E27 /* Main.storyboard */,
+				20A686931E4B28A900382E27 /* ViewController.h */,
+				20A686941E4B28A900382E27 /* ViewController.m */,
+				20A686961E4B28A900382E27 /* Main.storyboard */,
 				20A686651E4B281900382E27 /* Assets.xcassets */,
 				20A686671E4B281900382E27 /* LaunchScreen.storyboard */,
 				20A6866A1E4B281900382E27 /* Info.plist */,
@@ -138,6 +145,18 @@
 				20A686801E4B281900382E27 /* Info.plist */,
 			);
 			path = "自定义UIAlertControllerUITests";
+			sourceTree = "<group>";
+		};
+		20A686901E4B289600382E27 /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				20A6868C1E4B289600382E27 /* UIView+Extension.h */,
+				20A6868D1E4B289600382E27 /* UIView+Extension.m */,
+				20A6868E1E4B289600382E27 /* GCAlertController.h */,
+				20A6868F1E4B289600382E27 /* GCAlertController.m */,
+			);
+			name = alert;
+			path = "../../../../../Downloads/自定义UIAlertController1/自定义UIAlertController1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A686981E4B28A900382E27 /* Main.storyboard in Resources */,
 				20A686691E4B281900382E27 /* LaunchScreen.storyboard in Resources */,
 				20A686661E4B281900382E27 /* Assets.xcassets in Resources */,
-				20A686641E4B281900382E27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A686611E4B281900382E27 /* ViewController.m in Sources */,
+				20A686921E4B289600382E27 /* GCAlertController.m in Sources */,
 				20A6865E1E4B281900382E27 /* AppDelegate.m in Sources */,
+				20A686911E4B289600382E27 /* UIView+Extension.m in Sources */,
 				20A6865B1E4B281900382E27 /* main.m in Sources */,
+				20A686971E4B28A900382E27 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +335,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20A686621E4B281900382E27 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20A686631E4B281900382E27 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		20A686671E4B281900382E27 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				20A686681E4B281900382E27 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20A686961E4B28A900382E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A686951E4B28A900382E27 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../../../../Downloads/自定义UIAlertController1/自定义UIAlertController1";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
