@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GCAlertController.h"
 
 @interface ViewController ()
 
@@ -16,22 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    btn.backgroundColor = [UIColor orangeColor];
+    [btn addTarget:self action:@selector(btn_click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)btn_click
+{
+    GCAlertController *vc = [GCAlertController alertController];
+    [vc addActionWithTitle:@"1" style:GCPreviewActionStyleDefault handler:nil];
+    [vc addActionWithTitle:@"2" style:GCPreviewActionStyleDefault handler:nil];
+    [vc addActionWithTitle:@"3" style:GCPreviewActionStyleCancel handler:nil];
+   
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
