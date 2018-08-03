@@ -85,6 +85,10 @@
 		203D02D62113FBC400268C3F /* other */ = {
 			isa = PBXGroup;
 			children = (
+				203D02D82113FBD600268C3F /* GCAlertController.h */,
+				203D02D72113FBD600268C3F /* GCAlertController.m */,
+				203D02D92113FBD600268C3F /* UIView+Extension.h */,
+				203D02DA2113FBD600268C3F /* UIView+Extension.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -113,10 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				203D02D62113FBC400268C3F /* other */,
-				203D02D82113FBD600268C3F /* GCAlertController.h */,
-				203D02D72113FBD600268C3F /* GCAlertController.m */,
-				203D02D92113FBD600268C3F /* UIView+Extension.h */,
-				203D02DA2113FBD600268C3F /* UIView+Extension.m */,
 				20A6865C1E4B281900382E27 /* AppDelegate.h */,
 				20A6865D1E4B281900382E27 /* AppDelegate.m */,
 				203D02D12113F6C700268C3F /* ViewController.h */,
